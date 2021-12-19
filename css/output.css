@@ -5,11 +5,11 @@
   --keys-background: hsl(225, 21%, 49%);
   --keys-shadow: hsl(224, 28%, 35%);
   --keys-toggle: hsl(6, 63%, 50%);
-  --keys-toggle-shadow: hsl(6, 70%, 34%)
+  --keys-toggle-shadow: hsl(6, 70%, 34%);
   --keys-background-main: hsl(30, 25%, 89%);
   --keys-background-main-shadow: hsl(28, 16%, 65%);
   --text-main: hsl(221, 14%, 31%);
-  --text-white: hsl(0, 0, 100%);
+  --text-white: rgb(250, 239, 239);
 }
 
 [data-theme=light] {
@@ -117,6 +117,62 @@ select {
 body {
   font-family: "Spartan", sans-serif;
   font-size: 32px;
+  background-color: var(--background-main);
+}
+
+.heading {
+  color: var(--text-white);
+  filter: sepia(1);
+}
+
+.heading-primary {
+  font-size: 32px;
+}
+
+.heading-secondary {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.calculator {
+  background-color: var(--background-main);
+  padding: 1.5rem;
+}
+
+.calculator__screen {
+  display: grid;
+  place-items: center;
+}
+
+input {
+  background-color: var(--background-screen);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.calculator__keys {
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(10px, 1fr));
+  background-color: var(--background-secondary);
+  border-radius: 5px;
+  filter: sepia(0.3);
+  padding: 1rem;
+}
+
+.keys {
+  background-color: var(--keys-background-main);
+  margin: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.5rem;
+  border-bottom: 5px red;
+}
+
+p {
+  color: var(--text-main);
+  font-weight: 600;
 }
 
 .attribution {

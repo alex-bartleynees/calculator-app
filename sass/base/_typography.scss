@@ -1,4 +1,19 @@
 body {
     font-family: 'Spartan', sans-serif;
     font-size: 32px;
+    background-color: var(--background-main);
+}
+
+.heading {
+    color: var(--text-white);
+    filter: sepia(1);
+}
+
+.heading-primary {
+    font-size: 32px;
+}
+
+.heading-secondary {
+    font-size: 16px;
+    text-transform: uppercase;
 }
