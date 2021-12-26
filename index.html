@@ -11,7 +11,12 @@
             href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
         />
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
         <link rel="stylesheet" href="./css/output.css" />
         <script src="./src/index.js" async></script>
 
@@ -23,47 +28,56 @@
     </head>
     <body>
         <main>
-            <nav>
-                <div class="theme-switch-wrapper">
-                    <label class="theme-switch" for="checkbox">
-                        <input type="checkbox" id="checkbox" />
-                        <div class="slider round"></div>
-                    </label>
-                </div>
-            </nav>
-
             <div class="calculator">
                 <div class="calculator__heading">
                     <h1 class="heading heading-primary">calc</h1>
-                    <h2 class="heading heading-secondary">theme</h2>
+                    <div class="calculator__toggle">
+                        <h2 class="heading heading-secondary">theme</h2>
+                        <div class="toggle__container">
+                            <div class="toggle__numbers">
+                                <span>1</span><span>2</span> <span>3</span>
+                            </div>
+                            <div class="toggle__background">
+                                <button class="toggle__btn"></button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="calculator__screen">
-                    <input readonly type="text" />
+                    <input readonly type="text" value="0" />
                 </div>
                 <div class="calculator__keys">
-                    <div class="keys"><p>0</p></div>
-                    <div class="keys"><p>1</p></div>
-                    <div class="keys"><p>2</p></div>
-                    <div class="keys"><p>3</p></div>
-                    <div class="keys"><p>4</p></div>
-                    <div class="keys"><p>5</p></div>
-                    <div class="keys"><p>6</p></div>
-                    <div class="keys"><p>7</p></div>
-                    <div class="keys"><p>8</p></div>
-                    <div class="keys"><p>9</p></div>
-                    <div class="keys"><p>+</p></div>
-                    <div class="keys"><p>-</p></div>
-                    <div class="keys"><p>x</p></div>
-                    <div class="keys"><p>/</p></div>
-                    <div class="keys"><p>=</p></div>
-                    <div class="keys"><p>del</p></div>
-                    <div class="keys"><p>reset</p></div>
+                    <button class="key key-0" data-value="0">0</button>
+                    <button class="key key-1" data-value="1">1</button>
+                    <button class="key key-2" data-value="2">2</button>
+                    <button class="key key-3" data-value="3">3</button>
+                    <button class="key key-4" data-value="4">4</button>
+                    <button class="key key-5" data-value="5">5</button>
+                    <button class="key key-6" data-value="6">6</button>
+                    <button class="key key-7" data-value="7">7</button>
+                    <button class="key key-8" data-value="8">8</button>
+                    <button class="key key-9" data-value="9">9</button>
+                    <button class="key key-add" data-value="+">+</button>
+                    <button class="key key-subtract" data-value="-">-</button>
+                    <button class="key key-multiply" data-value="*">x</button>
+                    <button class="key key-divide" data-value="/">/</button>
+                    <button class="key key-equals" data-value="=">=</button>
+                    <button class="key key-dot" data-value=".">.</button>
+                    <button class="key key-del" data-value="del">del</button>
+                    <button class="key key-reset" data-value="reset">
+                        reset
+                    </button>
                 </div>
             </div>
         </main>
         <footer class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Alex Bartley Nees</a>.
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="#">Alex Bartley Nees</a>.
         </footer>
     </body>
 </html>
