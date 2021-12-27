@@ -182,7 +182,6 @@ body {
   border-radius: 50%;
   border: none;
   cursor: pointer;
-  display: flex;
   height: 1rem;
   width: 1rem;
   margin: 3px;

@@ -2,9 +2,9 @@
 64/home/alex-bartleynees/webdevelopment/calculator-app-main/images1639865477031532628 1
 71/home/alex-bartleynees/webdevelopment/calculator-app-main/tsconfig.json1640577360089659927 0
 68/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/pages1639867964871455025 1
-73/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.html1640582597007280915 0
-84/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.33bd74c0.js.map1640582597007280915 0
-80/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.33bd74c0.js1640582597007280915 0
+73/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.html1640619936907645364 0
+84/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.33bd74c0.js.map1640619936927645363 0
+80/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.33bd74c0.js1640619936917645364 0
 67/home/alex-bartleynees/webdevelopment/calculator-app-main/README.md1640579762497369332 0
 68/home/alex-bartleynees/webdevelopment/calculator-app-main/src/app.ts1640576983049671688 0
 61/home/alex-bartleynees/webdevelopment/calculator-app-main/src1640576939299673052 1
@@ -149,7 +149,7 @@
 104/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/modules/es.string.trim.js499162500000000000 0
 109/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/modules/web.queue-microtask.js499162500000000000 0
 108/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/modules/esnext.set.add-all.js499162500000000000 0
-62/home/alex-bartleynees/webdevelopment/calculator-app-main/dist1640582597007280915 1
+62/home/alex-bartleynees/webdevelopment/calculator-app-main/dist1640619936927645363 1
 112/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/modules/es.number.to-precision.js499162500000000000 0
 109/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/modules/es.string.pad-start.js499162500000000000 0
 101/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/modules/es.weak-set.js499162500000000000 0
@@ -4127,7 +4127,7 @@
 94/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lodash.memoize/index.js1471109594000000000 0
 98/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lodash.memoize/package.json1640554271690380124 0
 88/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/pako/CHANGELOG.md499162500000000000 0
-72/home/alex-bartleynees/webdevelopment/calculator-app-main/src/components1640576846749675939 1
+72/home/alex-bartleynees/webdevelopment/calculator-app-main/src/components1640595543606877071 1
 96/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/pako/lib/zlib/messages.js499162500000000000 0
 91/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/pako/lib/zlib/README499162500000000000 0
 97/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/pako/lib/zlib/constants.js499162500000000000 0
@@ -5832,7 +5832,7 @@
 128/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/jsdom/lib/jsdom/living/generated/ProcessingInstruction.js499162500000000000 0
 93/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/cssom/lib/MediaList.js499162500000000000 0
 99/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/terser/lib/compress/index.js499162500000000000 0
-88/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/abstracts/_variables.scss1640524063629818970 0
+88/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/abstracts/_variables.scss1640595543606877071 0
 115/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/parser/node_modules/debug1639866907471488008 1
 115/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/terser/lib/compress/drop-side-effect-free.js499162500000000000 0
 127/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/typescript-estree/dist/convert.js.map499162500000000000 0
@@ -6039,7 +6039,7 @@
 117/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/es-abstract/2016/CompletePropertyDescriptor.js499162500000000000 0
 98/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/domutils/lib/stringify.d.ts499162500000000000 0
 117/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lmdb-store/dependencies/lmdb-data-v1/libraries1640554257400380570 1
-81/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.aa9ea4b8.css1640582597007280915 0
+81/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.aa9ea4b8.css1640619936907645364 0
 106/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/sass/node_modules/is-number/LICENSE499162500000000000 0
 136/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/eslint-plugin/docs/rules/no-unsafe-argument.md499162500000000000 0
 135/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/scope-manager/dist/lib/es2019.string.d.ts.map499162500000000000 0
@@ -7788,7 +7788,7 @@
 106/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/postcss-value-parser/lib/index.d.ts499162500000000000 0
 110/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/css-tree/lib/syntax/node/Parentheses.js499162500000000000 0
 111/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/css-tree/lib/syntax/node/TypeSelector.js499162500000000000 0
-72/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/abstracts1639868016331453420 1
+72/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/abstracts1640595543606877071 1
 107/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@nodelib/fs.walk/out/readers/sync.js499162500000000000 0
 109/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@babel/generator/lib/generators/jsx.js456789000000000000 0
 106/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/css-tree/lib/syntax/node/Comment.js499162500000000000 0
@@ -11175,7 +11175,7 @@
 95/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/es-abstract/CHANGELOG.md499162500000000000 0
 98/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/defaults/node_modules/clone1640554272280380105 1
 126/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/bl/node_modules/readable-stream/lib/_stream_writable.js499162500000000000 0
-57/home/alex-bartleynees/webdevelopment/calculator-app-main1640582596967280916 1
+57/home/alex-bartleynees/webdevelopment/calculator-app-main1640619934877645427 1
 136/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lmdb-store/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_drop.c499162500000000000 0
 101/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/es-abstract/2021/TrimString.js499162500000000000 0
 138/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/experimental-utils/dist/ast-utils/index.d.ts.map499162500000000000 0
@@ -11375,7 +11375,7 @@
 108/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@eslint/eslintrc/lib/shared/naming.js499162500000000000 0
 107/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@parcel/core/node_modules/micromatch1640554270250380169 1
 92/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lodash/fp/template.js499162500000000000 0
-67/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/base1639891332100726130 1
+67/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/base1640595543606877071 1
 111/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/eslint-plugin/LICENSE499162500000000000 0
 72/home/alex-bartleynees/webdevelopment/calculator-app-main/.prettierrc.js1640249908893033544 0
 91/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/whatwg-url/README.md499162500000000000 0
@@ -12332,7 +12332,7 @@
 131/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/scope-manager/dist/lib/es2019.full.js.map499162500000000000 0
 128/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/experimental-utils/dist/index.d.ts.map499162500000000000 0
 133/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/scope-manager/dist/scope/SwitchScope.js.map499162500000000000 0
-85/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/pages/_calculator.scss1640582399377287079 0
+85/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/pages/_calculator.scss1640619648387654364 0
 91/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@babel/highlight/lib1640554261560380440 1
 102/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/stable/reflect/index.js499162500000000000 0
 150/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/scope-manager/dist/scope/ClassFieldInitializerScope.d.ts.map499162500000000000 0
@@ -14429,7 +14429,7 @@
 93/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/eslint-config-prettier1639867034271484053 1
 120/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/postcss-modules/node_modules/postcss/lib/parse.js499162500000000000 0
 128/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/postcss-modules/node_modules/postcss/lib/map-generator.js499162500000000000 0
-84/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/base/_typography.scss1640582610957280479 0
+84/home/alex-bartleynees/webdevelopment/calculator-app-main/sass/base/_typography.scss1640595543606877071 0
 104/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/es/string/virtual/link.js499162500000000000 0
 104/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/constants-browserify/package.json1640554272420380101 0
 96/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lodash/fp/findLastFrom.js499162500000000000 0
@@ -14877,7 +14877,7 @@
 109/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/typescript/lib/lib.es2021.promise.d.ts499162500000000000 0
 103/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/supports-hyperlinks/node_modules1640554269730380185 1
 118/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/es-abstract/2021/CanonicalNumericIndexString.js499162500000000000 0
-85/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.aa9ea4b8.css.map1640582597007280915 0
+85/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/index.aa9ea4b8.css.map1640619936927645363 0
 105/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/es/object/lookup-getter.js499162500000000000 0
 143/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@typescript-eslint/experimental-utils/dist/ts-eslint/RuleTester.d.ts.map499162500000000000 0
 85/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@parcel/fs/lib1640554257480380567 1
@@ -18659,7 +18659,7 @@
 90/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lodash/stubArray.js499162500000000000 0
 86/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lodash/clone.js499162500000000000 0
 92/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lodash/_stringSize.js499162500000000000 0
-89/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/favicon-32x32.4792b40b.png1640582597007280915 0
+89/home/alex-bartleynees/webdevelopment/calculator-app-main/dist/favicon-32x32.4792b40b.png1640619936917645364 0
 106/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/@babel/core/lib/transformation/util1640554259440380506 1
 92/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/lodash/_baseKeysIn.js499162500000000000 0
 108/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/escodegen/node_modules/prelude-ls/lib1640554262460380412 1
@@ -19434,7 +19434,7 @@
 109/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/es-abstract/helpers/OwnPropertyKeys.js499162500000000000 0
 116/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/core-js/es/object/get-own-property-symbols.js499162500000000000 0
 97/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/es-abstract/helpers/mod.js499162500000000000 0
-88/home/alex-bartleynees/webdevelopment/calculator-app-main/src/components/toggle-theme.ts1640582364657288162 0
+88/home/alex-bartleynees/webdevelopment/calculator-app-main/src/components/toggle-theme.ts1640595543606877071 0
 105/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/postcss-calc/dist/lib/transform.js499162500000000000 0
 114/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/es-abstract/helpers/getSymbolDescription.js499162500000000000 0
 111/home/alex-bartleynees/webdevelopment/calculator-app-main/node_modules/es-abstract/helpers/DefineOwnProperty.js499162500000000000 0
