@@ -37,7 +37,8 @@ export class UserInput {
                 break;
 
             case '=':
-                this.handleOperator('=');
+                this.handleInput();
+                this.resetSecondOperand();
                 break;
 
             case 'del':
@@ -67,20 +68,9 @@ export class UserInput {
     }
 
     handleOperator(operator: string) {
-        if (operator === '=' && state.secondOperand) {
-            this.handleInput();
-            state.result = this.calculator.calculate(
-                state.operator,
-                parseFloat(state.firstOperand.replace(/,/g, '')),
-                parseFloat(state.secondOperand.replace(/,/g, '')),
-            );
-            this.renderResult();
-            this.resetSecondOperand();
-        } else {
             this.handleInput();
             state.operator = operator;
             this.resetSecondOperand();
-        }
     }
 
     handleInput() {
