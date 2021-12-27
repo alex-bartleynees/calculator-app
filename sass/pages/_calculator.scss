@@ -1,7 +1,6 @@
 .calculator {
     background-color: var(--background-main);
     margin: auto;
-    max-width: 600px;
     padding: 1.5rem;
 }
 
@@ -138,12 +137,10 @@ input {
         align-items: center;
         background-color: var(--keys-background);
         border-bottom: solid 5px var(--keys-background-main-shadow);
-        display: flex;
         grid-column: 4 / 5;
         grid-row: 1 / 2;
-        justify-content: center;
         text-transform: uppercase;
-        color: var(--text-white);
+        color: var(--text-delete-reset);
         font-size: 18px;
     }
 

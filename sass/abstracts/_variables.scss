@@ -11,6 +11,7 @@
     --text-main: hsl(221, 14%, 31%);
     --text-white: rgb(250, 239, 239);
     --text-equals: #fff;
+    --text-delete-reset: rgb(250, 239, 239);
 }
 
 [data-theme='light'] {
@@ -27,13 +28,14 @@
 
     --text-main: hsl(60, 10%, 19%);
     --text-white: hsl(0, 0, 100%);
+    --text-delete-reset: rgb(250, 239, 239);
 }
 
 [data-theme='dark'] {
     --background-main: hsl(268, 75%, 9%);
     --background-secondary: hsl(268, 71%, 12%);
 
-    --keys-background: hsl(268, 47%, 21%);
+    --keys-background: #58077d;
     --keys-shadow: hsl(285, 91%, 52%);
     --keys-toggle: hsl(176, 100%, 44%);
     --keys-toggle-shadow: hsl(177, 92%, 70%);
@@ -44,4 +46,5 @@
     --text-dark-blue: hsl(198, 20%, 13%);
     --text-white: hsl(52, 100%, 62%);
     --text-equals: #000;
+    --text-delete-reset: hsl(52, 100%, 62%);
 }

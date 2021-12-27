@@ -2,6 +2,8 @@ body {
     font-family: 'Spartan', sans-serif;
     font-size: 32px;
     background-color: var(--background-main);
+    display: grid;
+    place-items: center;
 }
 
 .heading {

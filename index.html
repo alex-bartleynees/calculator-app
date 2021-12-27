@@ -17,8 +17,8 @@
             sizes="32x32"
             href="./images/favicon-32x32.png"
         />
-        <link rel="stylesheet" href="./css/output.css" />
-        <script src="./src/index.js" async></script>
+        <link rel="stylesheet" href="./sass/main.scss" />
+        <script type="module" src="./src/app.ts" async></script>
 
         <meta name="description" content="Calculator" />
 
@@ -44,9 +44,13 @@
                     </div>
                 </div>
 
-                <div class="calculator__screen">
-                    <input readonly type="text" value="0" />
-                </div>
+                <input
+                    class="calculator__screen"
+                    readonly
+                    type="text"
+                    value="0"
+                />
+
                 <div class="calculator__keys">
                     <button class="key key-0" data-value="0">0</button>
                     <button class="key key-1" data-value="1">1</button>
