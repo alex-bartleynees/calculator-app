@@ -3,7 +3,9 @@ export class RenderInput {
 
     setInput(input: string) {
         const inputCommas = input.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        if (this.input) {
         this.input.value = inputCommas;
+        }
     }
 }
 
