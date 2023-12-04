@@ -8,6 +8,7 @@ export const TOKENS = {
     "*": (token: string, input: string) => processOperator(input)(token),
     "/": (token: string, input: string) => processOperator(input)(token),
     "=": (_token: string, input: string) => processOperation(input),
+    "0": (token: string) => state.input += token,
     "1": (token: string) => state.input += token,
     "2": (token: string) => state.input += token,
     "3": (token: string) => state.input += token,

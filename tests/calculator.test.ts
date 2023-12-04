@@ -256,6 +256,7 @@ it("should calculate (1 + 1) * 5 ", () => {
     input.parseInput(event4)
     input.parseInput(event5)
     input.parseInput(event6)
+    input.parseInput(event7)
 
     // Assert
     expect(state.result).toBe(10)

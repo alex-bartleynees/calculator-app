@@ -23,16 +23,16 @@ export class Calculator {
 
     processOperation() {
         for (let i = 0; i < state.operandStack.length; i++) {
-        const operator = state.operatorStack.pop();
-        const secondOperand = state.operandStack.pop();
-        const firstOperand = state.operandStack.pop();
-        const result = this.calculate(operator!, firstOperand!, secondOperand!)
-        state.result = result;
-        state.operandStack.push(+result);
-        
+            const operator = state.operatorStack.pop();
+            const secondOperand = state.operandStack.pop();
+            const firstOperand = state.operandStack.pop();
+            const result = this.calculate(operator!, firstOperand!, secondOperand!)
+            state.result = result;
+            state.operandStack.push(+result);
+        }
         this.renderResult();
         state.resetInput();
-        }
+
     }
 
     renderResult() {

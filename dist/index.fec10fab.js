@@ -695,10 +695,12 @@ class CalculatorState {
         this.operatorStack = new (0, _stack.Stack)();
         this.operandStack = new (0, _stack.Stack)();
         this.result = 0;
+        this.resetInput();
         (0, _renderInput.render).setInput(this.result.toString());
     }
     resetInput() {
-        this.input = "";
+        this.#userInput = "";
+        this.#displayInput = "";
     }
     constructor(){
         this.result = 0;
@@ -780,6 +782,7 @@ const TOKENS = {
     "*": (token, input)=>(0, _processOperator.processOperator)(input)(token),
     "/": (token, input)=>(0, _processOperator.processOperator)(input)(token),
     "=": (_token, input)=>(0, _processOperation.processOperation)(input),
+    "0": (token)=>(0, _calculatorState.state).input += token,
     "1": (token)=>(0, _calculatorState.state).input += token,
     "2": (token)=>(0, _calculatorState.state).input += token,
     "3": (token)=>(0, _calculatorState.state).input += token,
@@ -841,9 +844,9 @@ class Calculator {
             const result = this.calculate(operator, firstOperand, secondOperand);
             (0, _calculatorState.state).result = result;
             (0, _calculatorState.state).operandStack.push(+result);
-            this.renderResult();
-            (0, _calculatorState.state).resetInput();
         }
+        this.renderResult();
+        (0, _calculatorState.state).resetInput();
     }
     renderResult() {
         (0, _renderInput.render).setInput((0, _calculatorState.state).result.toLocaleString());

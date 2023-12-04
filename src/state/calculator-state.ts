@@ -29,11 +29,13 @@ class CalculatorState {
         this.operatorStack = new Stack();
         this.operandStack = new Stack();
         this.result = 0;
+        this.resetInput();
         render.setInput(this.result.toString());
     }
 
     resetInput() {
-        this.input = '';
+        this.#userInput = '';
+        this.#displayInput = '';
     }
 }
 
