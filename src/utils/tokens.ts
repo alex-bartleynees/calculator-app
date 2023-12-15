@@ -1,10 +1,11 @@
 import { state } from "../state/calculator-state";
+import { processMinusSign } from "./process-minus-sign";
 import { processOperation } from "./process-operation";
 import { processOperator } from "./process-operator";
 
 export const TOKENS = {
     "+": (token: string, input: string) => processOperator(input)(token),
-    "-": (token: string, input: string) => processOperator(input)(token),
+    "-": (token: string, input: string) => processMinusSign(input)(token),
     "*": (token: string, input: string) => processOperator(input)(token),
     "/": (token: string, input: string) => processOperator(input)(token),
     "=": (_token: string, input: string) => processOperation(input),
