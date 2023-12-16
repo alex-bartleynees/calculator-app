@@ -1,6 +1,4 @@
-import { Calculator } from "../components/calculator";
 import { state } from "../state/calculator-state";
-import { processOperation } from "./process-operation";
 
 export const processOperator = (input: string) => {
     if (input) {
