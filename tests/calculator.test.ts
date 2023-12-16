@@ -347,3 +347,69 @@ it('should handle negative numbers', () => {
      // Assert
      expect(state.result).toBe(625)
 })
+
+it('should calculate 8 + 8 - 3', () => {
+    // Arrange
+    document.body.innerHTML = '<div class="calculator__keys">test</div> <input type="text" value="0"  />';
+    jest.spyOn(RenderInput.prototype, 'setInput').mock;
+    const input = new UserInput();
+    state.reset();
+    state.resetInput();
+    const event1 = {
+        target: {
+            dataset: {
+                value: "8"
+            }
+        }
+    } as any;
+    const event2 = {
+       target: {
+           dataset: {
+               value: "+"
+           }
+       }
+   } as any;
+   const event3 = {
+       target: {
+           dataset: {
+               value: "8"
+           }
+       }
+   } as any;
+    const event4 = {
+        target: {
+            dataset: {
+                value: "-"
+            }
+        }
+    } as any;
+    const event5 = {
+       target: {
+           dataset: {
+               value: "3"
+           }
+       }
+   } as any;
+   const event6 = {
+      target: {
+          dataset: {
+              value: "="
+          }
+      }
+  } as any;
+
+    
+
+    // Act
+
+   input.parseInput(event1)
+   input.parseInput(event2)
+   input.parseInput(event3)
+   input.parseInput(event4)
+   input.parseInput(event5)
+   input.parseInput(event6)
+
+
+    // Assert
+    expect(state.result).toBe(13)
+})

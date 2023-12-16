@@ -7,14 +7,11 @@ export const processMinusSign = (input: string) => {
     }
 
     return (token: string) => {
-        if (state.operatorStack.length === 0 && state.operandStack.length === 1) {
-            state.operatorStack.push(token)
-            return;
-        }
-
         if (state.operatorStack.length === 0 || state.operandStack.length === 1) {
             state.input += token;
             return;
         }
+
+        state.operatorStack.push(token);
     }
 }
