@@ -1,17 +1,38 @@
 import { state } from "../state/calculator-state";
 
 export const processMinusSign = (input: string) => {
+    const { operandStack, operatorStack, input: currentInput } = state;
+
     if (input) {
         state.operandStack.push(+input)
         state.resetInput();
     }
 
     return (token: string) => {
-        if (state.operatorStack.length === 0 || state.operandStack.length === 1) {
+        if (isEmptyInput(operatorStack.length, operandStack.length)) {
             state.input += token;
-            return;
+        } else if (isNotFirstOperator(currentInput, operatorStack.length) && !currentInput) {
+            operatorStack.push(token);
+        } else if (isSingleOperand(operatorStack.length, operandStack.length) || isNoOperator(operatorStack.length)) {
+            state.input += token;
+        } else {
+            operatorStack.push(token);
         }
+    };
+}
 
-        state.operatorStack.push(token);
-    }
+const isEmptyInput = (operatorLength: number, operandLength: number) => {
+    return operatorLength === 0 && operandLength === 0;
+}
+
+const isNotFirstOperator = (currentInput: string, operatorLength: number) => {
+    return !currentInput && operatorLength !== 1;
+}
+
+const isSingleOperand = (operatorLength: number, operandLength: number) => {
+    return operatorLength === 0 || operandLength === 1;
+}
+
+const isNoOperator = (operatorLength: number) => {
+    return operatorLength === 0;
 }
