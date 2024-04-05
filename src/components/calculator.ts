@@ -26,9 +26,11 @@ export class Calculator {
             const operator = state.operatorStack.pop();
             const secondOperand = state.operandStack.pop();
             const firstOperand = state.operandStack.pop();
-            const result = this.calculate(operator!, firstOperand!, secondOperand!)
+            if (operator && firstOperand && secondOperand) {
+            const result = this.calculate(operator, firstOperand, secondOperand)
             state.result = result;
             state.operandStack.push(+result);
+            }
         }
         this.renderResult();
         state.resetInput();

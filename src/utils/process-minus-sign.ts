@@ -1,24 +1,18 @@
 import { state } from "../state/calculator-state";
 
-export const processMinusSign = (input: string) => {
-    const { operandStack, operatorStack, input: currentInput } = state;
+export const processMinusSign = (token: string) => {
 
-    if (input) {
-        state.operandStack.push(+input)
-        state.resetInput();
-    }
-
-    return (token: string) => {
+        const { operandStack, operatorStack, input: currentInput } = state;
         if (isEmptyInput(operatorStack.length, operandStack.length)) {
             state.input += token;
         } else if (isNotFirstOperator(currentInput, operatorStack.length) && !currentInput) {
             operatorStack.push(token);
-        } else if (isSingleOperand(operatorStack.length, operandStack.length) || isNoOperator(operatorStack.length)) {
+        } else if (isSingleOperand(operatorStack.length, operandStack.length)) {
             state.input += token;
         } else {
             operatorStack.push(token);
         }
-    };
+    
 }
 
 const isEmptyInput = (operatorLength: number, operandLength: number) => {
@@ -30,7 +24,7 @@ const isNotFirstOperator = (currentInput: string, operatorLength: number) => {
 }
 
 const isSingleOperand = (operatorLength: number, operandLength: number) => {
-    return operatorLength === 0 || operandLength === 1;
+    return operandLength === 1 && operatorLength !== 0;
 }
 
 const isNoOperator = (operatorLength: number) => {

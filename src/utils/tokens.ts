@@ -4,11 +4,25 @@ import { processOperation } from "./process-operation";
 import { processOperator } from "./process-operator";
 
 export const TOKENS = {
-    "+": (token: string, input: string) => processOperator(input)(token),
-    "-": (token: string, input: string) => processMinusSign(input)(token),
-    "*": (token: string, input: string) => processOperator(input)(token),
-    "/": (token: string, input: string) => processOperator(input)(token),
-    "=": (_token: string, input: string) => processOperation(input),
+    "+": (token: string, input: string) => {
+        processOperation(input)
+        processOperator()(token)
+    },
+    "-": (token: string, input: string) => {
+        processOperation(input)
+        processMinusSign(token)
+    },
+    "*": (token: string, input: string) => {
+        processOperation()
+        processOperator(input)(token)
+    },
+    "/": (token: string, input: string) => {
+        processOperation()
+        processOperator(input)(token)
+    },
+    "=": (_token: string, input: string) => {
+        processOperation(input)
+    },
     "0": (token: string) => state.input += token,
     "1": (token: string) => state.input += token,
     "2": (token: string) => state.input += token,
