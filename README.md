@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: https://hungry-volhard-6e3aba.netlify.app/
+- Live Site URL: https://alex-bn-calculator.netlify.app/
 
 ## My process
 
